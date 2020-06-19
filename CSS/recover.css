@@ -1,0 +1,75 @@
+.recover-parent {
+    height: 100%;
+    padding: 0 1%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../image/success-woman.png") no-repeat;
+}
+
+.recover {
+    height: 50%;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 40px 30px;
+    opacity: 0.9;
+}
+
+.recover-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.recover-title img {
+    width: 50px;
+    height: 50px;
+}
+
+.recover-title h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.recover h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.recover .form-group label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.recover .form-group input {
+    font-size: 14px;
+}
+
+.recover button {
+    margin-top: 30px;
+    width: 100%;
+    display: block;
+    background: linear-gradient(135deg, rgb(235, 164, 205), rgb(211, 187, 214));
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.recover button:hover {
+    border: none;
+    color: #ffffff;
+    transform: scale(1.05);
+    transition: .2s;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+    .recover-parent {
+        background: url("../image/success-woman.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.2;
+    }
+}
